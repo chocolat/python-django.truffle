@@ -1,0 +1,8 @@
+(name PhoneNumberField)
+
+(trigger
+    (tab phonenumber))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.PhoneNumberField(%{2="blank=True"})])

@@ -1,0 +1,8 @@
+(name USStateField)
+
+(trigger
+    (tab usstate))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.USStateField(%{2="blank=True"})])

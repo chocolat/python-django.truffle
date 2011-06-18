@@ -1,0 +1,8 @@
+(name FilePathField)
+
+(trigger
+    (tab filepath))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.FilePathField(path="%{1="/location/of/choices"}"%{2=", match=\"%{3=\"regex\"}\""}%{4=", recursive=True"})])

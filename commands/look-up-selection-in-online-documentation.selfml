@@ -1,0 +1,19 @@
+(trigger
+    (key [[ctrl]H]))
+
+(name [Search online documentation])
+
+(only-in [source.python.django, text.html.django])
+
+(input nothing)
+
+(output nothing)
+
+(save nothing)
+
+(script [if [ $TM_SELECTED_TEXT]
+then
+	open "http://www.google.com/search?as_q=$TM_SELECTED_TEXT&as_sitesearch=www.djangoproject.com"
+else
+	open "http://www.google.com/search?as_q=$TM_CURRENT_WORD&as_sitesearch=www.djangoproject.com"
+fi])

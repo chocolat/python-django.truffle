@@ -1,0 +1,8 @@
+(name IPAddressField)
+
+(trigger
+    (tab ipaddress))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.IPAddressField(%{2="blank=True"})])

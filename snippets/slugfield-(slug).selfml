@@ -1,0 +1,8 @@
+(name SlugField)
+
+(trigger
+    (tab slug))
+
+(only-in source.python.django)
+
+(snippet [%{1="slug"} = models.SlugField(%{2="prepopulate_from=(\"%{3}\",%{4})"})])

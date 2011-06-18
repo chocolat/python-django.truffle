@@ -1,0 +1,8 @@
+(name DateField)
+
+(trigger
+    (tab date))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.DateField(%{2="default=datetime.datetime.today"})])

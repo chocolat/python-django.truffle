@@ -1,0 +1,8 @@
+(name TextField)
+
+(trigger
+    (tab text))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.TextField(%{2="blank=True"})])

@@ -1,0 +1,18 @@
+(name [Model Skeleton])
+
+(trigger
+    (tab model))
+
+(only-in source.python.django)
+
+(snippet [class %{1="Modelname"}(models.Model):
+	"""%{2="(%{1} description)"}"""
+	%{0}
+
+	class Admin:
+		list_display = ('',)
+		search_fields = ('',)
+
+	def __unicode__(self):
+		return u"%{1}"
+])

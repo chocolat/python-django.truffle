@@ -1,0 +1,8 @@
+(name ManyToManyField)
+
+(trigger
+    (tab manytomany))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.ManyToManyField(%{2="RELATED_MODEL"})])

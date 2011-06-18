@@ -1,0 +1,8 @@
+(name CommaSeparatedIntegerField)
+
+(trigger
+    (tab commaseparatedinteger))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.CommaSeparatedIntegerField(max_length=%{2})])

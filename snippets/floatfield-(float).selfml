@@ -1,0 +1,8 @@
+(name FloatField)
+
+(trigger
+    (tab float))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.FloatField()])

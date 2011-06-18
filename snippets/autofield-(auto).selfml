@@ -1,0 +1,8 @@
+(name AutoField)
+
+(trigger
+    (tab auto))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.AutoField()])

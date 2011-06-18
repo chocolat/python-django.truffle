@@ -1,0 +1,8 @@
+(name NullBooleanField)
+
+(trigger
+    (tab nullboolean))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.NullBooleanField(%{2="default=True"})])

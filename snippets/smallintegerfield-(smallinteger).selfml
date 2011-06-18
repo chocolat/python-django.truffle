@@ -1,0 +1,8 @@
+(name SmallIntegerField)
+
+(trigger
+    (tab smallinteger))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.SmallIntegerField(%{2="blank=True, null=True"})])

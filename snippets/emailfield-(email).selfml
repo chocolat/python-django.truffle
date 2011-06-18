@@ -1,0 +1,8 @@
+(name EmailField)
+
+(trigger
+    (tab email))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.EmailField()])

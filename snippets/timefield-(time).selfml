@@ -1,0 +1,8 @@
+(name TimeField)
+
+(trigger
+    (tab time))
+
+(only-in source.python.django)
+
+(snippet [%{1="FIELDNAME"} = models.TimeField(%{2="blank=True"})])
